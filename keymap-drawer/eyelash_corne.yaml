@@ -11,7 +11,7 @@ layers:
   - F
   - G
   - C
-  - O
+  - R
   - L
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -145,7 +145,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - sistema
   - {t: '$$mdi:transfer$$', type: trans}
   Pro:
   - '&studio_unlock'
@@ -240,8 +240,8 @@ layers:
   - RGB ON
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
