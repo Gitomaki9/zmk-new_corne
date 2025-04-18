@@ -68,7 +68,7 @@
         default_layer {
             display-name = "DVORAK";
             bindings = <
-&lt 1 ESCAPE                  &kp SEMICOLON  &kp COMMA  &kp DOT   &kp P  &kp Y                               &kp UP                &kp F        &kp G  &kp C     &kp O  &kp L  &kp BSPC
+&lt 1 ESCAPE                  &kp SEMICOLON  &kp COMMA  &kp DOT   &kp P  &kp Y                               &kp UP                &kp F        &kp G  &kp C     &kp R  &kp L  &kp BSPC
 &tab_escape LEFT_CONTROL TAB  &kp A          &kp O      &kp E     &kp U  &kp I                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp D        &kp H  &kp T     &kp N  &kp S  &lt 6 MINUS
 &td0                          &kp SQT        &kp Q      &kp J     &kp K  &kp X        &kp SPACE              &kp DOWN              &kp B        &kp M  &kp W     &kp V  &kp Z  &kp RIGHT_SHIFT
                                                         &kp LGUI  &mo 3  &lt 2 SPACE                                               &lt 2 ENTER  &mo 4  &kp RALT
@@ -107,7 +107,7 @@
 &trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                            &mmv MOVE_UP                     &kp CARET     &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_6  &kp N7    &kp N8     &kp N9    &kp N0    &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none         &none         &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp PLUS  &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans        &trans        &kp SPACE                                                             &kp RET       &trans    &trans
+                                    &trans        &trans        &kp SPACE                                                             &kp RET       &mo 5     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -119,7 +119,7 @@
 &trans  &kp EXCL      &kp AT        &kp LPAR          &kp RIGHT_PARENTHESIS  &kp RA(SLASH)                               &mmv MOVE_UP                     &kp QUESTION     &kp GRAVE             &kp SQT    &kp RA(SQT)       &kp PERCENT  &kp BSPC
 &trans  &kp HOME      &kp END       &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp RA(NUMBER_1)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp NON_US_BACKSLASH  &kp PIPE   &kp SLASH         &kp HASH     &kp DOLLAR
 &trans  &out OUT_USB  &out OUT_BLE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &mkp MB5          &trans                    &mmv MOVE_DOWN                   &kp INS          &kp LESS_THAN         &kp CARET  &kp GREATER_THAN  &kp AMPS     &kp TILDE
-                                    &trans            &trans                 &kp SPACE                                                                    &kp RET          &trans                &trans
+                                    &trans            &mo 5                  &kp SPACE                                                                    &kp RET          &trans                &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
