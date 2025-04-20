@@ -68,10 +68,10 @@
         default_layer {
             display-name = "DVORAK";
             bindings = <
-&lt 1 ESCAPE                  &kp SEMICOLON  &kp COMMA  &kp DOT   &kp P  &kp Y                               &kp UP                &kp F        &kp G  &kp C     &kp R  &kp L  &kp BSPC
-&tab_escape LEFT_CONTROL TAB  &kp A          &kp O      &kp E     &kp U  &kp I                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp D        &kp H  &kp T     &kp N  &kp S  &lt 6 MINUS
-&td0                          &kp SQT        &kp Q      &kp J     &kp K  &kp X        &kp SPACE              &kp DOWN              &kp B        &kp M  &kp W     &kp V  &kp Z  &kp RIGHT_SHIFT
-                                                        &kp LGUI  &mo 3  &lt 2 SPACE                                               &lt 2 ENTER  &mo 4  &kp RALT
+&lt 1 ESCAPE                  &kp SEMICOLON  &kp COMMA  &kp DOT   &kp P  &kp Y                               &kp UP                &kp F        &kp G        &kp C     &kp R  &kp L  &kp BSPC
+&tab_escape LEFT_CONTROL TAB  &kp A          &kp O      &kp E     &kp U  &kp I                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp D        &kp H        &kp T     &kp N  &kp S  &lt 6 MINUS
+&td0                          &kp SQT        &kp Q      &kp J     &kp K  &kp X        &kp SPACE              &kp DOWN              &kp B        &kp M        &kp W     &kp V  &kp Z  &kp RIGHT_SHIFT
+                                                        &kp LGUI  &mo 3  &lt 2 SPACE                                               &lt 2 SPACE  &lt 4 ENTER  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -83,7 +83,7 @@
 &trans  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3    &bt BT_SEL 4                                 &mmv MOVE_UP                     &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp BSPC
 &trans  &bt BT_DISC 0    &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3   &bt BT_DISC 4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH  &kp PG_UP
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &out OUT_USB   &bt BT_CLR_ALL  &bt BT_CLR     &kp C_MUTE                    &mmv MOVE_DOWN                   &kp EQUAL     &kp N7        &kp NUMBER_8  &kp N9        &kp N0     &kp PG_DN
-                                         &trans         &trans          &trans                                                                        &kp INS       &kp DEL       &trans
+                                         &trans         &trans          &trans                                                                        &kp SPACE     &kp DEL       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -92,10 +92,10 @@
         movimiento {
             display-name = "MOV";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH        &kp DLLR          &kp PSCRN                            &mmv MOVE_UP                     &kp F13  &kp K_BACK      &kp LS(LC(TAB))  &kp LC(TAB)   &kp K_FORWARD    &kp BSPC
-&trans  &kp HOME      &kp END       &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LALT             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F14  &kp LEFT        &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT        &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none           &none             &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp INS  &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &kp TILDE
-                                    &trans          &trans            &kp SPACE                                                             &kp RET  &trans          &trans
+&trans  &kp EXCL      &kp AT    &kp HASH        &kp DLLR          &kp PSCRN                            &mmv MOVE_UP                     &kp F13  &kp K_BACK      &kp LS(LC(TAB))  &kp LC(TAB)   &kp K_FORWARD    &kp BSPC
+&trans  &kp HOME      &kp END   &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LALT             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F14  &kp LEFT        &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT        &kp GRAVE
+&trans  &out OUT_USB  &mkp MB1  &mkp MB3        &mkp MB2          &mkp MB2   &trans                    &mmv MOVE_DOWN                   &kp INS  &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &kp TILDE
+                                &trans          &trans            &kp SPACE                                                             &kp RET  &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -107,7 +107,7 @@
 &trans  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                            &mmv MOVE_UP                     &kp CARET     &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_6  &kp N7    &kp N8     &kp N9    &kp N0    &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none         &none         &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp PLUS  &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans        &trans        &kp SPACE                                                             &kp RET       &mo 5     &trans
+                                    &trans        &trans        &kp SPACE                                                             &kp SPACE     &mo 5     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
