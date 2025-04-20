@@ -46,8 +46,8 @@ layers:
   - LGUI
   - MOV
   - {t: '$$mdi:keyboard-space$$', h: MOV}
-  - {t: '$$mdi:keyboard-return$$', h: MOV}
-  - Pro
+  - {t: '$$mdi:keyboard-space$$', h: MOV}
+  - {t: '$$mdi:keyboard-return$$', h: Pro}
   - $$mdi:apple-keyboard-option$$
   NUMBER:
   - {type: held}
@@ -95,7 +95,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
+  - $$mdi:keyboard-space$$
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   MOV:
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:keyboard-return$$', type: held alternate}
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - sistema
   - {t: '$$mdi:transfer$$', type: trans}
   Pro:
