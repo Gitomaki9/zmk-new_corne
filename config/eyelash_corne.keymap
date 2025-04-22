@@ -93,8 +93,8 @@
             display-name = "MOV";
             bindings = <
 &trans  &kp EXCL   &kp AT     &kp HASH        &kp DLLR          &kp PSCRN                            &mmv MOVE_UP                     &kp F13  &kp LA(LS(TAB))  &kp LS(LC(TAB))  &kp LC(TAB)   &kp LA(TAB)      &kp BSPC
-&trans  &kp HOME   &kp END    &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LALT             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F14  &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT        &kp GRAVE
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)         &kp LC(Y)  &trans                    &mmv MOVE_DOWN                   &kp INS  &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans  &kp HOME   &kp END    &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LALT             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F14  &kp LEFT         &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT        &kp PG_UP
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)         &kp LC(Y)  &trans                    &mmv MOVE_DOWN                   &kp INS  &msc SCRL_LEFT   &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &kp PAGE_DOWN
                               &trans          &trans            &kp SPACE                                                             &kp RET  &trans           &trans
             >;
 
