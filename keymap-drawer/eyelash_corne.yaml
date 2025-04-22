@@ -140,7 +140,7 @@ layers:
   - '{'
   - '}'
   - '|'
-  - {t: /, s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:keyboard-space$$', type: held}
