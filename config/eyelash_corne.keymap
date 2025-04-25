@@ -92,17 +92,17 @@
         movimiento {
             display-name = "MOV";
             bindings = <
-&trans  &kp EXCL   &kp AT     &kp HASH        &kp LG(LS(S))     &kp PSCRN                            &mmv MOVE_UP                     &kp F13  &kp K_BACK      &kp LS(LC(TAB))  &kp LC(TAB)   &kp K_FORWARD    &kp BSPC
-&trans  &kp HOME   &kp END    &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LALT             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F14  &kp LEFT        &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT        &kp PG_UP
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)         &kp LC(Y)  &trans                    &mmv MOVE_DOWN                   &kp INS  &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &kp PAGE_DOWN
-                              &trans          &trans            &kp SPACE                                                             &kp RET  &trans          &trans
+&trans      &kp EXCL   &kp AT     &kp HASH        &kp LG(LS(S))     &kp PSCRN                            &mmv MOVE_UP                     &kp F13  &kp K_BACK      &kp LS(LC(TAB))  &kp LC(TAB)   &kp K_FORWARD    &kp BSPC
+&trans      &kp HOME   &kp END    &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LALT             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp F14  &kp LEFT        &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT        &kp PG_UP
+&kp DELETE  &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)         &kp LC(Y)  &trans                    &mmv MOVE_DOWN                   &kp INS  &msc SCRL_LEFT  &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT  &kp PAGE_DOWN
+                                  &trans          &trans            &kp SPACE                                                             &kp RET  &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
         };
 
         layer_5 {
-            display-name = "MOV";
+            display-name = "Symbol";
             bindings = <
 &kp GRAVE  &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                            &mmv MOVE_UP                     &kp CARET     &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp NUMBER_6  &kp N7    &kp N8     &kp N9    &kp N0    &kp EQUAL
@@ -116,10 +116,10 @@
         SymbolProgramacion {
             display-name = "Pro";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp LPAR          &kp RIGHT_PARENTHESIS  &kp RA(SLASH)                               &mmv MOVE_UP                     &kp QUESTION     &kp GRAVE             &kp SQT    &kp RA(SQT)       &kp PERCENT  &kp BSPC
-&trans  &kp HOME      &kp END       &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp RA(NUMBER_1)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp NON_US_BACKSLASH  &kp PIPE   &kp SLASH         &kp HASH     &kp DOLLAR
-&trans  &out OUT_USB  &out OUT_BLE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &mkp MB5          &trans                    &mmv MOVE_DOWN                   &kp INS          &kp LESS_THAN         &kp CARET  &kp GREATER_THAN  &kp AMPS     &kp TILDE
-                                    &trans            &mo 5                  &kp SPACE                                                                    &kp RET          &trans                &trans
+&kp GRAVE   &kp EXCL      &kp AT        &kp LPAR          &kp RIGHT_PARENTHESIS  &kp RA(SLASH)                               &mmv MOVE_UP                     &kp QUESTION     &kp GRAVE             &kp SQT    &kp RA(SQT)       &kp PERCENT  &kp BSPC
+&trans      &kp HOME      &kp END       &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp RA(NUMBER_1)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp NON_US_BACKSLASH  &kp PIPE   &kp SLASH         &kp HASH     &kp DOLLAR
+&kp DELETE  &out OUT_USB  &out OUT_BLE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &mkp MB5          &trans                    &mmv MOVE_DOWN                   &kp INS          &kp LESS_THAN         &kp CARET  &kp GREATER_THAN  &kp AMPS     &kp TILDE
+                                        &trans            &mo 5                  &kp SPACE                                                                    &kp RET          &trans                &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
